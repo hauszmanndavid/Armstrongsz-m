@@ -4,7 +4,7 @@ const gomb = document.getElementById('Kattints');
 gomb.addEventListener("click", Kattints);
 
 function Kattints() {
-  let szám = Math.floor(Math.random() * 
+  let szám = Math.floorMath.random() * 
   let sz = 1;
   let tipp = prompt("Adj meg egy számot: ");
 
