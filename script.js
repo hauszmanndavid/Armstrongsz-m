@@ -3,13 +3,8 @@ const gomb = document.getElementById('Kattints');
 
 gomb.addEventListener("click", Kattints);
 
-function Kattints() {
-  let szám = Math.floorMath.random() * 
-  let sz = 1;
-  let tipp = prompt("Adj meg egy számot: ");
-
   let sum = 0;
-const number = prompt('Enter a three-digit positive integer: ');
+const number = prompt('Adjon meg egy háromjegyű pozitív egész számot: ');
 
 
 let temp = number;
@@ -24,16 +19,11 @@ while (temp > 0) {
 }
 
 if (sum == number) {
-    console.log(`${number} is an Armstrong number`);
+    console.log(`${number} egy Armstrong-szám`);
 }
 else {
-    console.log(`${number} is not an Armstrong number.`);
+    console.log(`${number} nem Armstrong-szám.`);
 }
  
-  
-
- 
-  tipp = prompt("Adj meg egy számot: ");
-} 
-
-  let eredmeny = document.getElementById('eredmeny');
+let eredmeny = document.getElementById('eredmeny');
+  eredmeny.innerHTML = "szám " + sz;
