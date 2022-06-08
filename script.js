@@ -1,4 +1,4 @@
-const gomb = document.getElementById('Kattints');
+const gomb = document.getElementById('kattints');
 
 
 gomb.addEventListener("click", Kattints);
@@ -25,5 +25,5 @@ else {
     console.log(`${number} nem Armstrong-szám.`);
 }
  
-let eredmeny = document.getElementById('eredmeny');
-  eredmeny.innerHTML = "szám " + sz;
+let Armstrongszam = document.getElementById('Armstrongszam');
+Armstrongszam.innerHTML = "szám " + sz;
